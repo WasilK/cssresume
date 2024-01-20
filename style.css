@@ -1,0 +1,130 @@
+.intro {
+  font-size: 76px;
+  font-family: cursive;
+  margin-bottom: 40px;
+  color: #66bfbf;
+}
+.profile {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #66bfbf;
+}
+.bucket1 {
+  text-align: center;
+}
+.picture {
+  border-radius: 50%;
+}
+.bucket2 {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #e4f9f5;
+  padding: 30px;
+}
+.skills {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #66bfbf;
+}
+.bucket3 {
+  margin-bottom: 50px;
+}
+
+.important {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  width: 50%;
+  text-align: center;
+  margin-left: 400px;
+}
+.skillset {
+  display: block;
+  text-align: left;
+}
+.bucket4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.list {
+  list-style: none;
+  text-align: left;
+  margin-left: 150px;
+}
+.p1 {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.contact {
+  text-align: center;
+}
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.last {
+  text-align: center;
+}
+.para {
+  color: #66bfbf;
+}
+.head {
+  color: #66bfbf;
+}
+.link {
+  color: #66bfbf;
+}
+.bucket5 {
+  margin-bottom: 100px;
+}
+.para1 {
+  margin-bottom: 30px;
+}
+.bucket6 {
+  background-color: #66bfbf;
+  padding: 50px;
+}
+.footer-link {
+  color: whitesmoke;
+}
+.copyright {
+  color: white;
+}
+@media (min-width: 319px) and (max-width: 480px) {
+  .important {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+    gap: 10px;
+  }
+  .list {
+    margin-left: 10px;
+  }
+  .first {
+    height: 200px;
+  }
+}
